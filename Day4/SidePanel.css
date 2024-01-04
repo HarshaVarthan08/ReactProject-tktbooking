@@ -1,0 +1,38 @@
+/* Styles for the container div */
+div {
+  margin: 20px;
+}
+
+/* Styles for the select dropdown */
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Styles for the selected option */
+select option:checked {
+  background-color: #e0e0e0;
+}
+
+/* Styles for the paragraph displaying the selected value */
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #000000;
+}
+.hv2{
+  display: none;
+  text-decoration: none;
+  
+}
+.a5{
+  color: white;
+  
+}
+.hv1:hover .hv2{
+  display: grid;
+}
