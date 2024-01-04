@@ -1,0 +1,59 @@
+/* PaymentPage.css */
+
+.payment-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #f6ecec;
+    text-align: center;
+    background-color: #625f5f;
+    box-shadow: 0 0 10px rgba(248, 247, 247, 0.1);
+    opacity: 85%;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+   text-align: center;
+   
+  }
+  
+  .card-label {
+    margin-bottom: 16px;
+   
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  
+  .pay-button {
+    padding: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #0056b3;
+    }
+  
+    &:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+  }
+  

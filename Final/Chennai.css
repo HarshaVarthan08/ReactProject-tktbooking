@@ -1,0 +1,67 @@
+/* Chennai.css */
+
+.chennai-container {
+    max-width: 800px;
+    
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    
+  }
+  
+  .counter-container {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .counter-container div {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    margin-left: 8px;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .room-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .room-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  
+  .room-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .room-details {
+    padding: 16px;
+  }
+  
+  h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
